@@ -1,6 +1,7 @@
-# ownstack. Full application deployment in the cloud with monitoring, logging, dashboard, auto-scaling.
+# Work in progress - Full application deployment in the cloud with monitoring, logging, dashboard, auto-scaling.
 
-This is a work in progress. While certain features do work, others are not yet implemented or do not work as expected.
+## This is a work in progress. While certain features do work, others are not yet implemented or do not work as expected.
+
 This project started as a test ground for saltstack.
 
 ## Objectives
