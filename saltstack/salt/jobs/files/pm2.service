@@ -1,0 +1,17 @@
+[Unit]
+Description=PM2 {{ app_name }}
+After=network.target remote-fs.target
+
+[Service]
+Type=forking
+User={{ user }}
+WorkingDirectory={{ app_directory }}/current
+RemainAfterExit=yes
+
+ExecStart=/usr/lib/node_modules/pm2/bin/pm2 startOrGracefulReload process_jobs.yml
+ExecReload=/usr/lib/node_modules/pm2/bin/pm2 gracefulReload {{ app_name }}
+
+ExecStop=/usr/lib/node_modules/pm2/bin/pm2 stop {{ app_name }}
+
+[Install]
+WantedBy=multi-user.target

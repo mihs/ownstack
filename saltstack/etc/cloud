@@ -1,0 +1,3 @@
+cloud:
+  sync_after_install: all
+  flush_mine_on_destroy: True

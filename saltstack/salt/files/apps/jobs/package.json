@@ -1,0 +1,13 @@
+{
+  "name": "deploy-test",
+  "version": "1.0.0",
+  "description": "This is a simple application used to test the deployment of a web server and a job server using ownstack",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./jobs.js"
+  },
+  "author": "mihs",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

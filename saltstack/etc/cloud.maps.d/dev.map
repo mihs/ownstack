@@ -1,0 +1,8 @@
+dev-monitor:
+  - dev-monitor
+dev-web:
+  - dev-web-1
+dev-jobs:
+  - dev-jobs-1
+dev-balancer:
+  - dev-balancer

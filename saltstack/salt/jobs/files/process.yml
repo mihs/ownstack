@@ -1,0 +1,7 @@
+apps:
+  - script   : jobs.js
+    name     : {{ app_name }}
+    instances: -1
+    exec_mode: cluster
+    kill_timeout: 20000
+    env: {{ script_env|yaml }}
